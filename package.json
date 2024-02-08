@@ -4,10 +4,6 @@
   "description": "",
   "type": "module",
   "bin": "src/index.ts",
-  "main": "src/index.ts",
-  "scripts": {
-    "type-check": "tsc"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
