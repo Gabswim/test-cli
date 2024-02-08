@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "init": "tsc"
   },
   "keywords": [],
   "author": "",
