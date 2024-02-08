@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "test-cli": "./bin/index.js"
+    "test-cli": "./bin/index"
   },
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "tsc && chmod +x ./dist/index.js"
+    "prepare": "tsc"
   },
   "keywords": [],
   "author": "",
