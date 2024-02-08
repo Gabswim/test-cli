@@ -2,11 +2,19 @@
   "name": "test-cli",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "test-cli": "./dist/index.js"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build && chmod +x ./dist/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node-lts": "20.1.1",
+    "typescript": "5.3.3"
+  }
 }
