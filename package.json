@@ -9,10 +9,12 @@
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node-lts": "20.1.1",
-    "@types/node": "^20.11.16",
+    "@types/node": "20.11.16",
+    "@types/yargs": "17.0.32",
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "@faker-js/faker": "8.4.0"
+    "@faker-js/faker": "8.4.0",
+    "yargs": "17.7.2"
   }
 }
