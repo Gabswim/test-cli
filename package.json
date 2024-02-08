@@ -3,16 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "bin": "dist/index.js",
-  "files": [
-    "dist/index.js",
-    "dist/index.d.ts"
-  ],
+  "bin": "src/index.ts",
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "install": "tsc && chmod +x dist/index.js"
-  },
   "devDependencies": {
     "@tsconfig/node-lts": "20.1.1",
     "@types/yargs": "17.0.32",

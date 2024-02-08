@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env npx ts-node --esm
 import yargs from "yargs/yargs";
 import { hideBin } from "yargs/helpers";
 
@@ -18,7 +18,10 @@ yargs(hideBin(process.argv))
           type: "number",
           describe: "the second number",
         }),
-    (argv) => console.log(argv.num1 + argv.num2)
+    (argv) => {
+        console.log(argv.num1 + argv.num2)
+        console.log(faker.person.firstName())
+    }
   )
   .demandCommand()
   .help()
