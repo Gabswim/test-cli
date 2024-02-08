@@ -24,6 +24,7 @@ yargs(hideBin(process.argv))
     }
   )
   .demandCommand()
+  .strict()
   .help()
   .parse();
 
