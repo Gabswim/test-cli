@@ -14,6 +14,6 @@ export const AddCommand = {
         describe: "the second number",
       }),
   handler: ({num1, num2}) => {
-    console.log(`{num1} + {num2} = ${num1 + num2}`);
+    console.log(`${num1} + ${num2} = ${num1 + num2}`);
   },
 } satisfies CommandModule<{}, { num1: number; num2: number }>;
