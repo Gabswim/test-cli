@@ -2,12 +2,11 @@
   "name": "test-cli",
   "version": "1.0.0",
   "description": "",
-  "bin": {
-    "test-cli": "./bin/index"
-  },
-  "main": "dist/index.js",
+  "type": "module",
+  "bin": "src/index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "prepare": "tsc"
+    "type-check": "tsc"
   },
   "keywords": [],
   "author": "",
