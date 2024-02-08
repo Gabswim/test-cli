@@ -1,4 +1,4 @@
-#!/usr/bin/env npx ts-node --esm
+#!/usr/bin/env npx tsx --esm
 import yargs from "yargs/yargs";
 import { hideBin } from "yargs/helpers";
 
