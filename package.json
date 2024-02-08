@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "prepare": "tsc && chmod +x dist/index.js"
+    "install": "tsc && chmod +x dist/index.js"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "20.1.1",
