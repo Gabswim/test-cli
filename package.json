@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "test-cli": "./dist/index.js"
+    "test-cli": "./bin/index.js"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "tsc && chmod +x ./dist/index.js"
   },
