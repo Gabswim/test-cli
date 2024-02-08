@@ -3,5 +3,4 @@
 import { faker } from "@faker-js/faker"
 
 console.log('Hello, world!1')
-console.log(`hello ${process.argv[2]}!`)
 console.log(`fake user: ${faker.person.firstName()} ${faker.person.lastName()}`)
