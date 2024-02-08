@@ -7,7 +7,7 @@ import { AddCommand } from "./AddCommand";
 yargs(hideBin(process.argv))
   .command(AddCommand)
   .demandCommand()
-  .strict()
+  .strictCommands()
   .help()
   .parse();
 
