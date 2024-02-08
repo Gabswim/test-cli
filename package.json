@@ -6,7 +6,6 @@
   "bin": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
-    "prepare": "npm i",
     "type-check": "tsc"
   },
   "keywords": [],
