@@ -7,8 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build && chmod +x ./dist/index.js"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
